@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<style>
+div {text-align: center; padding: 10px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+function onClick1(){
+	processVal($('#ip1').val())
+}
+function onClick2(){
+	processVal($('#ip2').val())
+}
+function onClick3(){
+	processVal($('#ip3').val())
+}
+function onClick4(){
+	processVal($('#ip4').val())
+}
+function onClick5(){
+	processVal($('#ip5').val())
+}
+function onClick6(){
+	processVal($('#ip6').val())
+}
+function onClick7(){
+	processVal($('#ip7').val())
+}
+function onClick8(){
+	processVal($('#ip8').val())
+}
+function onClick9(){
+	processVal($('#ip9').val())
+}
+function onClick10(){
+	processVal($('#ip10').val())
+}
+
+function processVal(value){
+	if(value){
+	window.open('cmd://' + value, '_blank').focus();
+	}
+	else{
+		alert("please enter valid input")
+	}
+}
+</script
+<body>
+<div>
+<input type="text" id = "ip1" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare"></input> 
+<Button style ="height:30px" onClick="onClick1()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip2" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\Northwind Traders company culture research.pdf"></input> 
+<Button style ="height:30px" onClick="onClick2()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip3" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\Northwind Traders competitors research.pptx"></input> 
+<Button style ="height:30px" onClick="onClick3()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip4" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\Northwind Traders global expansion research.docx"></input> 
+<Button style ="height:30px" onClick="onClick4()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip5" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\Northwind Traders Retail FY20 financials research.xlsx"></input> 
+<Button style ="height:30px" onClick="onClick5()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip6" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\helloworld.txt"></input> 
+<Button style ="height:30px" onClick="onClick6()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip7" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\DesignPatterns.one"></input> 
+<Button style ="height:30px" onClick="onClick7()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip8" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare\GCA_official.png"></input> 
+<Button style ="height:30px" onClick="onClick8()">Click me</Button>
+</div>
+<!--
+<div>
+<input type="text" id = "ip9" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare"></input> 
+<Button style ="height:30px" onClick="onClick9()">Click me</Button>
+</div>
+
+<div>
+<input type="text" id = "ip10" style ="width:90%;height:30px" value = "\\LAPTOP-N0K6JKU2\IgniteDemoShare"></input> 
+<Button style ="height:30px" onClick="onClick10()">Click me</Button>
+</div>
+-->
+</body>
+</html>
