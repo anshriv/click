@@ -1,4 +1,33 @@
 <!DOCTYPE html>
 <html>
-<a href = "ms-word:ofv|u|file:\\anshrivFilesSha\FilesAndFolderInRatio\Northwind Traders Retail Performance Research.docx" >click here</a>
+<style>
+div {text-align: center; padding: 10px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+function onClick1(){
+	processVal($('#ip1').val())
+}
+
+function processVal(value){
+	if(value){
+        try{
+            window.open(value, '_blank').focus();
+        }
+        catch(err){
+            console.log(err);
+        }
+	}
+	else{
+		alert("please enter valid input")
+	}
+}
+</script
+<body>
+<div>
+<input type="text" id = "ip1" style ="width:90%;height:30px" value = ""></input> 
+<Button style ="height:30px" onClick="onClick1()">Click me</Button>
+</div>
+</body>
 </html>
