@@ -13,7 +13,8 @@ function onClick1(){
 function processVal(value){
 	if(value){
         try{
-            window.open(value, '_blank').focus();
+            document.location =  value;
+            //window.open(value, '_blank').focus();
         }
         catch(err){
             console.log(err);
